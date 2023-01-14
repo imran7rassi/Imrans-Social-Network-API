@@ -1,25 +1,22 @@
 
 // requiring the mangoose
-const { Schema, model, Types } = require('mongoose');
+const { Schema, model } = require("mongoose");
 
 // adding the user schema
-const userSchema = new Schema(
+const UserSchema = new Schema(
   {
     username: {
       type: String,
       unique: true,
-      required: true,
       trim: true,
+      required: "Username is Required",
     },
 
     email: {
       type: String,
-      required: true,
       unique: true,
-      match: [
-        /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
-        "Please fill a valid email address",
-      ],
+      required: "Username is Required",
+      match: [/.+@.+\..+/],
     },
 
     thoughts: [
@@ -36,7 +33,6 @@ const userSchema = new Schema(
       },
     ],
   },
-
   {
     toJSON: {
       virtuals: true,
@@ -45,16 +41,13 @@ const userSchema = new Schema(
   }
 );
 
-
 // this is the friend count
 // that shows the friends lenght
-userSchema.virtual("friendCount").get(function () {
+UserSchema.virtual("friendCount").get(function () {
   return this.friends.length;
 });
 
-// create the User
-// model using the UserSchema
-const User = model('User', userSchema);
+const User = model("User", UserSchema);
 
 // export the User model
 module.exports = User;
