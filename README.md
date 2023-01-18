@@ -23,11 +23,11 @@ The Social Network API is a project where I built the APIs on the backend for a 
 
 ## Video Walk Through
 
-![Demo for Walkthrough](./Assets/Tech-blog.gif)
+![Demo for Walkthrough](./Assets/demo.gif)
 
 
 
-* You also can go through that link for a better look <a href="https://drive.google.com/file/d/1AIw2zAqbCrARnL4jTIEOWHAkxwQ7YW0c/view">Video</a>
+* You also can go through that link for a better look <a href="https://drive.google.com/file/d/1QuRfxqSYMGnaCaKIVXkTyDJaukKP_DLz/view">Video</a>
 
 
 ## Usage 
