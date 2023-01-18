@@ -1,10 +1,11 @@
 
-
+// requiring the User 
+// and the thought
 const { User, Thought } = require("../models");
 
 const userController = {
 
-  // get all users
+  // Get all users
   getAllUser(req, res) {
     User.find({})
       .populate({
