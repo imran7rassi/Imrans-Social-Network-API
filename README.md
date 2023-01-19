@@ -7,7 +7,7 @@ The Social Network API is a project where I built the APIs on the backend for a 
 
 ## Table of Contents
 * [Installation](#installation)
-* [Video Walk Through](#video_walk_through)
+* [Demo](#demo)
 * [Usage](#usage)
 * [License](#license)
 * [Credits](#credits)
@@ -21,7 +21,7 @@ The Social Network API is a project where I built the APIs on the backend for a 
 4. Create the "dotenv" file.
 5. Set up the the dotenv to connect to the Mongo and Port.
 
-## Video Walk Through
+## Demo
 
 ![Demo for Walkthrough](./Assets/demo.gif)
 
