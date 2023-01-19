@@ -7,7 +7,7 @@ The Social Network API is a project where I built the APIs on the backend for a 
 
 ## Table of Contents
 * [Installation](#installation)
-* [Video Walk Through](#videowalkthrough)
+* [Video Walk Through](#video_walk_through)
 * [Usage](#usage)
 * [License](#license)
 * [Credits](#credits)
