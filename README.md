@@ -37,7 +37,7 @@ The Social Network API is a project where I built the APIs on the backend for a 
 3. Open MongoDB and connect to the MongoDB URI `mongodb://localhost:27017`. On the list of databases, click on `social_DB` to see `thoughts` and `users` data.
 4. To create seed data and test the API routes, use [Insomnia](https://insomnia.rest/download). Also, see the Tests section below.
 
-![](./Assets/tech-blog-1.jpg)
+![](./Assets/Screenshot%20mongo.jpg) ![](./Assets/insomnia.jpg)
 
 ## License
 
